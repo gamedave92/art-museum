@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="styles.css" rel="stylesheet" />
+  <title>Museum Gallery</title>
+</head>
+<body>
+  <header>
+  <div id="gallery-header">
+    <h1 id="header-one">Museum of History and Art</h1>
+    <p id="border-text">How Will You Arrange Your Visit?</p>
+    <nav id="nav-bar">
+      <ul>
+        <li>
+          <a href="#home-section">Home</a>
+        </li>
+        <li>
+          <a href="#hours-section">Opening Hours</a>
+        </li>
+        <li>
+          <a href="#exhibit-sectio">Exhibts</a>
+        </li>
+        <li>
+          <a href="#contact-section">Contact</a>
+        </li>  
+      </ul>
+    </nav>
+  </div>
+  </header>
+  <hr>
+  <main>
+  <section id="about">
+   <h2>About</h2> 
+   <p>Welcome to the Museum of History and Art where the past shapes the present and the future. </p>
+   <img  id="museum"  src="img/ghibli-museum.png" alt="outside-of-museum">
+  </section>
+
+  <section id="opening-hours">
+    <h2>Opening hours</h2>
+      <p>Open Weekdays</p>
+      <ul>
+        <li id="list-one">Monday-Friday, 7am - 6pm</li>
+        <li id="list-two">Saturday 9am - 5pm</li>
+      </ul>
+  </section>
+
+  <section id="our-exhibits">
+    <h2>Our Exhibts</h2>
+      <divclass="our-exhibits">
+        <p>Welcome to our exhibits that we have all year around Make sure to check out our websits for updates of new exhibts.</p>
+        <a><img src="img/avant-garde-painting.png" alt="people-painting" class="gallery-item" id="item-1"></a>
+        <a><img src="img/dippy-the-dinosaur.png" alt="dippy-the-dinosaur" class="gallery-item" id="item-2"></a>
+        <a><img src="img/greek-sculpture.png" alt="greek-sculpture" class="gallery-item" id="item-3"></a>
+        <a><img src="img/winged-victory-of-samothrace.png" alt="winged"  class="gallery-item" id="item-4"></a>
+      </div>
+  </section>   
+
+  <section id="notficiations">
+    <p></p>
+  </section>
+  <div id="notification-div">
+    <details>
+    <summary><strong>Timed-entry ticket reservations continue to be required for Museum entry.</strong></summary>
+    <p>Contact us <a href="#contact-section">here</a>!
+    </p>
+  </details>
+  </div>
+
+  <footer id="contact-section">
+    <h2>Contact</h2>
+    <p>How Will You Arrange Your Visit? Give us your <b>email</b> and choose the <b>time</b> of your visit:</p>
+    <br>
+        <input type="email" placeholder="e-mail here" required /> </br>
+        <br>
+        <p><Strong>Please pick a date</Strong></p>
+        <input type="date" id="date"> </br>
+        <br /><p><b>Monday-Friday</b></p> <br />
+        <input type="radio" name="option" required/> 7am - 8am 
+        <input type="radio" name="option" required/> 9am - 10am 
+        <input type="radio" name="option" required/> 11am - 12p:30pm 
+        <input type="radio" name="option" required/> 1:30pm - 6pm  <br />
+        <br /> <p><b>Saturday</b></p> <br />
+        <input type="radio" name="option" required/> 9am - 10:30am 
+        <input type="radio" name="option" required/> 11am - 12pm 
+        <input type="radio" name="option" required/> 12:30am - 1p:30pm 
+        <input type="radio" name="option" required/> 2:30pm - 5pm <br />
+        <input type="submit" value="submit">
+        <br />
+          </form>  
+  </footer>
+  </main> 
+</body>
+</html>
